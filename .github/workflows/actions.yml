@@ -1,4 +1,4 @@
-name: run benchmark.py
+name: "Do the benchmark"
 
 on:
   schedule:
