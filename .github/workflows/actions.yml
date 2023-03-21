@@ -23,7 +23,7 @@ jobs:
           pip install pillow git+https://github.com/yoshiumikuni/pynime.git
           
       - name: execute py script # run main.py
-        run: python benchmark.py
+        run: python "benchmark.py"
           
       - name: push changes
         uses: stefanzweifel/git-auto-commit-action@v4
