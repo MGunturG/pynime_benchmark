@@ -23,7 +23,7 @@ jobs:
       - name: install python packages
         run: |
           pip install --upgrade pip
-          pip install pillow git+https://github.com/yoshiumikuni/pynime.git
+          pip install pillow git+https://github.com/yoshikuniii/pynime.git
           pip install yarl
           
       - name: execute py script # run main.py
