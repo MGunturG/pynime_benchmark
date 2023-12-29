@@ -35,5 +35,6 @@ jobs:
         with:
           commit_message: "Maid Bot: Benchmark Update"
           file_pattern: .
+          add_options: "-A"
           repository: .
           skip_fetch: false
