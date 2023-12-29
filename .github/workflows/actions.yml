@@ -34,6 +34,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Maid Bot: Benchmark Update"
-          file_pattern: "*.png"
+          files: |
+            bench_result.png
+            resolution_result.png
+            url_status.png
           repository: .
           skip_fetch: false
