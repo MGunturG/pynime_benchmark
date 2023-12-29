@@ -34,7 +34,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Automated Change - Updating Benchmark Status
-          file_pattern: '*.png *.PNG'
+          file_pattern: '*.png'
           repository: .
-          push_option: --force
           skip_fetch: false
